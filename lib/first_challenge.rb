@@ -15,10 +15,10 @@ def first_challenge
   }
   # binding.pry
   #your code here
-  
+  binding.pry
   contacts.each do |person, data|
     data.each do |attribute, value|
-      binding.pry
+      
       if attribute == :favorite_icecream_flavors
         
         attribute
