@@ -1,3 +1,4 @@
+require 'pry'
 def first_challenge
   contacts = {
     "Jon Snow" => {
@@ -12,8 +13,20 @@ def first_challenge
       favorite_icecream_flavors: ["strawberry", "cookie dough", "mint chip"]
     }
   }
-
+  # binding.pry
   #your code here
+  
+  contacts.each do |person, data|
+    data.each do |attribute, value|
+      if attribute == :favorite_icecream_flavors
+        binding.pry
+        attribute
+        
+        end
+      end 
+    end
+  end
+  
 
 
   #remember to return your newly altered contacts hash!
