@@ -13,7 +13,7 @@ def first_challenge
       favorite_icecream_flavors: ["strawberry", "cookie dough", "mint chip"]
     }
   }
-  binding.pry
+  # binding.pry
   #your code here
   
   contacts.each do |person, data|
