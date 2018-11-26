@@ -17,15 +17,16 @@ def first_challenge
   #your code here
   
   contacts.each do |person, data|
-    data.each do |attribute, value|
-      
-      if attribute == :favorite_icecream_flavors
-        binding.pry
-        attribute.delete_if {|val| val == "strawberry"}
+    if person == "Freddy Mercury"
+      data.each do |attribute, value|
         
-        
-      end 
-    end
+        if attribute == :favorite_icecream_flavors
+          binding.pry
+          attribute.delete_if {|val| val == "strawberry"}
+          
+          
+        end 
+      end
   end
   
 
