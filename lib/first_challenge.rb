@@ -22,7 +22,7 @@ def first_challenge
         
         if attribute == :favorite_icecream_flavors
           binding.pry
-          attribute.delete_if {|val| val == "strawberry"}
+          value.delete_if {|val| val == "strawberry"}
           
           
         end 
