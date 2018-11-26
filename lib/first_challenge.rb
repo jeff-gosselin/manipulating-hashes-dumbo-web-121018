@@ -21,7 +21,7 @@ def first_challenge
       
       if attribute == :favorite_icecream_flavors
         
-        attribute
+        attribute.delete_if
         
         
       end 
